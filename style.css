@@ -1,0 +1,271 @@
+html {
+    background: linear-gradient(180deg, #0E1A44 0%, rgba(52, 96, 250, 0.68) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Score Section */
+.result {
+    position: relative;
+    transform: translate(-50%);
+    left: 50%;
+    top: 5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 7rem;
+    width: 25rem;
+}
+
+.resContent {
+    position: relative;
+    text-decoration: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 5%;
+    width: fit-content;
+}
+
+.scoreArea {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    background-color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 3px;
+    border-radius: 10px;
+    top: -57px;
+    height: 83%;
+    width: 108px;
+    left: -8px;
+}
+
+.score {
+    position: relative;
+    background-color: #ffff;
+    font-size: 50px;
+    height: 20px;
+    top: -18px;
+}
+
+/* Play Area */
+
+.playArea {
+    position: relative;
+    top: 102px;
+    margin: auto;
+    height: 300px;
+    width: 544px;
+}
+
+.circle1 {
+    position: relative;
+    border: 2px solid rgb(245, 16, 168);
+    top: 30px;
+    left: 70px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(245, 16, 168);
+}
+
+.circle1:hover {
+    position: relative;
+    border: 2px solid #ffff;
+    top: 30px;
+    left: 70px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+}
+
+.circle2 {
+    position: relative;
+    border: 2px solid rgb(236, 213, 5);
+    float: right;
+    top: -90px;
+    left: -60px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(236, 213, 5);
+}
+
+.circle2:hover {
+    position: relative;
+    border: 2px solid #ffff;
+    top: -90px;
+    left: -60px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+}
+
+.circle3 {
+    position: relative;
+    border: 2px solid rgb(209, 47, 47);
+    top: 83px;
+    left: 214px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(209, 47, 47);
+}
+
+.circle3:hover {
+    position: relative;
+    border: 2px solid #ffff;
+    top: 83px;
+    left: 214px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: #ffff;
+}
+
+.minicircle {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #ffff;
+}
+
+.img1 {
+    background-color: #ffff;
+    position: relative;
+    top: 17px;
+    left: 30px;
+}
+
+.img1:hover {
+    background-color: #ffff;
+    position: relative;
+    top: 13px;
+    left: 25px;
+    height: 70px;
+}
+
+.img2 {
+    background-color: #ffff;
+    position: relative;
+    width: 73px;
+    top: 16px;
+    left: 13px;
+}
+
+.img2:hover {
+    background-color: #ffff;
+    position: relative;
+    width: 91px;
+    top: 12px;
+    left: 5px;
+}
+
+.img3 {
+    background-color: #ffff;
+    position: relative;
+    height: 66px;
+    top: 14px;
+    left: 18px;
+}
+
+.img3:hover {
+    background-color: #ffff;
+    position: relative;
+    height: 80px;
+    top: 6px;
+    left: 10px;
+}
+
+#rules {
+    position: absolute;
+    left: 800px;
+    top: 600px;
+    border: 2px solid #ffff;
+    color: #ffff;
+    height: 30px;
+    width: 70px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#rulesContent {
+    position: relative;
+    border: 7px solid #465BA7;
+    background-color: #08143E;
+    float: right;
+    width: 206px;
+    padding: 5px;
+    right: 10px;
+    top: -215px;
+    color: #ffff;
+}
+
+#closeBTN {
+    position: relative;
+    border: 7px solid #465BA7;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    color: #ffff;
+    background-color: #FF0000;
+    left: 174px;
+    top: -62px;
+}
+
+/* frame 2 */
+
+#resultDeclare{
+    height: 161px;
+    width: 583px;
+    margin: auto;
+    position: relative;
+    top: -160px;
+}
+
+.circle4{
+    position: relative;
+    border: 2px solid;
+    top: 19px;
+    left: 22px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(245, 16, 168);
+    float: left;
+}
+.circle5{
+    position: relative;
+    border: 2px solid;
+    top: 19px;
+    left: -22px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    background-color: rgb(236, 213, 5);
+    float: right;
+}
+.resultMessage{
+    position: absolute;
+    text-align: center;
+}
+
+#playAgain{
+    position: absolute;
+    width: 174px;
+    height: 44px;
+    left: 205px;
+    top: 89px;
+    background: #ffff;
+    border-radius: 9px;
+}
