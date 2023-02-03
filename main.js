@@ -1,3 +1,7 @@
+var userScore = 0;
+var userChoice = 0;
+var pcChoice = 0;
+
 function rules() {
     document.getElementById("rulesContent").style.visibility = "visible";
 }
@@ -8,21 +12,15 @@ function closed() {
 
 function playAgain() {
     document.getElementById("resultDeclare").style.visibility = "hidden";
-    document.getElementById("rulesContent").style.visibility = "visible";
-}
-
-function playAgain() {
-    document.getElementById("resultDeclare").style.visibility = "hidden";
     document.getElementsByClassName("playArea")[0].style.visibility = "visible";
     document.getElementsByClassName("img5")[0].style.top = "0px";
     document.getElementsByClassName("img5")[0].style.left = "0px";
     document.getElementsByClassName("img5")[0].style.width = "0px";
     document.getElementsByClassName("img5")[0].style.height = "0px";
+    document.getElementById("pp").style.visibility = "hidden";
 }
 
-var userScore = 0;
-var userChoice = 0;
-var pcChoice = 0;
+
 document.getElementsByClassName("score")[0].innerHTML = userScore;
 
 function generator() {
@@ -31,6 +29,7 @@ function generator() {
 
 function scissors() {
     userChoice = 1;
+    document.getElementById("pp").style.visibility = "visible";
     document.getElementsByClassName("img4")[0].setAttribute("src", "images/scissors.png");
     document.getElementsByClassName("img4")[0].style.top = "17px";
     document.getElementsByClassName("img4")[0].style.left = "30px";
@@ -81,6 +80,7 @@ function scissors() {
 
 function rock() {
     userChoice = 1;
+    document.getElementById("pp").style.visibility = "visible";
     document.getElementsByClassName("img4")[0].setAttribute("src", "images/rock.png");
     document.getElementsByClassName("img4")[0].style.top = "17px";
     document.getElementsByClassName("img4")[0].style.left = "13px";
@@ -131,6 +131,7 @@ function rock() {
 
 function paper() {
     userChoice = 1;
+    document.getElementById("pp").style.visibility = "visible";
     document.getElementsByClassName("img4")[0].setAttribute("src", "images/paper.png");
     document.getElementsByClassName("img4")[0].style.top = "14px";
     document.getElementsByClassName("img4")[0].style.left = "18px";

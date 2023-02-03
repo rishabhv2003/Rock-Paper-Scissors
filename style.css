@@ -233,6 +233,26 @@ html {
     top: -160px;
 }
 
+#pp{
+    padding:0px 10px 0px 10px;
+    position: absolute;
+    width: 583px;
+    height: 30px;
+    top: 230px;
+    color: #ffff;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.p1{
+    position: relative;
+    float: left;
+    left: 39px;
+}
+.p2{
+    position: relative;
+    float: right;
+    right: 51px;
+}
 .circle4{
     position: relative;
     border: 2px solid;
@@ -244,6 +264,7 @@ html {
     background-color: rgb(245, 16, 168);
     float: left;
 }
+
 .circle5{
     position: relative;
     border: 2px solid;
@@ -268,4 +289,5 @@ html {
     top: 89px;
     background: #ffff;
     border-radius: 9px;
+    border: 2px solid #ffff;
 }
