@@ -147,13 +147,13 @@ html {
     left: 30px;
 }
 
-.img1:hover {
+/* .img1:hover {
     background-color: #ffff;
     position: relative;
     top: 13px;
     left: 25px;
     height: 70px;
-}
+} */
 
 .img2 {
     background-color: #ffff;
@@ -163,13 +163,13 @@ html {
     left: 13px;
 }
 
-.img2:hover {
+/* .img2:hover {
     background-color: #ffff;
     position: relative;
     width: 91px;
     top: 12px;
     left: 5px;
-}
+} */
 
 .img3 {
     background-color: #ffff;
@@ -178,14 +178,14 @@ html {
     top: 14px;
     left: 18px;
 }
-
+/* 
 .img3:hover {
     background-color: #ffff;
     position: relative;
     height: 80px;
     top: 6px;
     left: 10px;
-}
+} */
 
 #rules {
     position: absolute;
@@ -207,7 +207,7 @@ html {
     width: 206px;
     padding: 5px;
     right: 10px;
-    top: -215px;
+    top: -378px;
     color: #ffff;
 }
 
