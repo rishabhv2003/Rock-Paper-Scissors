@@ -65,7 +65,7 @@ html {
 
 .circle1 {
     position: relative;
-    border: 2px solid rgb(245, 16, 168);
+    border: 2px solid #ffffff00;
     top: 30px;
     left: 70px;
     border-radius: 100px;
@@ -74,20 +74,9 @@ html {
     background-color: rgb(245, 16, 168);
 }
 
-.circle1:hover {
-    position: relative;
-    border: 2px solid #ffff;
-    top: 30px;
-    left: 70px;
-    border-radius: 100px;
-    height: 120px;
-    width: 120px;
-    background-color: #ffff;
-}
-
 .circle2 {
     position: relative;
-    border: 2px solid rgb(236, 213, 5);
+    border: 2px solid #ffffff00;
     float: right;
     top: -90px;
     left: -60px;
@@ -97,37 +86,15 @@ html {
     background-color: rgb(236, 213, 5);
 }
 
-.circle2:hover {
-    position: relative;
-    border: 2px solid #ffff;
-    top: -90px;
-    left: -60px;
-    border-radius: 100px;
-    height: 120px;
-    width: 120px;
-    background-color: #ffff;
-}
-
 .circle3 {
     position: relative;
-    border: 2px solid rgb(209, 47, 47);
+    border: 2px solid #ffffff00;
     top: 83px;
     left: 214px;
     border-radius: 100px;
     height: 120px;
     width: 120px;
     background-color: rgb(209, 47, 47);
-}
-
-.circle3:hover {
-    position: relative;
-    border: 2px solid #ffff;
-    top: 83px;
-    left: 214px;
-    border-radius: 100px;
-    height: 120px;
-    width: 120px;
-    background-color: #ffff;
 }
 
 .minicircle {
@@ -138,22 +105,18 @@ html {
     height: 100px;
     width: 100px;
     background-color: #ffff;
+    /* transition: 100ms; */
 }
 
+.minicircle:hover{
+    transform: scale(1.2);
+}
 .img1 {
     background-color: #ffff;
-    position: relative;
-    top: -21px;
-    left: 30px;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
 }
-
-/* .img1:hover {
-    background-color: #ffff;
-    position: relative;
-    top: 13px;
-    left: 25px;
-    height: 70px;
-} */
 
 .img2 {
     background-color: #ffff;
@@ -163,14 +126,6 @@ html {
     left: 13px;
 }
 
-/* .img2:hover {
-    background-color: #ffff;
-    position: relative;
-    width: 91px;
-    top: 12px;
-    left: 5px;
-} */
-
 .img3 {
     background-color: #ffff;
     position: relative;
@@ -178,19 +133,11 @@ html {
     top: 14px;
     left: 18px;
 }
-/* 
-.img3:hover {
-    background-color: #ffff;
-    position: relative;
-    height: 80px;
-    top: 6px;
-    left: 10px;
-} */
 
 #rules {
-    position: absolute;
-    left: 1213px;
-    top: 531px;
+    position: relative;
+    /* left: 40%;
+    top: 338px; */
     border: 2px solid #ffff;
     color: #ffff;
     height: 30px;
@@ -206,7 +153,7 @@ html {
     float: right;
     width: 206px;
     padding: 5px;
-    right: 474px;
+    right: 25%;
     top: -441px;
     color: #ffff;
 }
@@ -224,7 +171,6 @@ html {
 }
 
 /* frame 2 */
-
 #resultDeclare{
     height: 161px;
     width: 583px;
@@ -243,16 +189,19 @@ html {
     margin-left: 50%;
     transform: translateX(-50%);
 }
+
 .p1{
     position: relative;
     float: left;
     left: 39px;
 }
+
 .p2{
     position: relative;
     float: right;
     right: 51px;
 }
+
 .circle4{
     position: relative;
     border: 2px solid;
@@ -276,6 +225,7 @@ html {
     background-color: rgb(236, 213, 5);
     float: right;
 }
+
 .resultMessage{
     position: absolute;
     text-align: center;

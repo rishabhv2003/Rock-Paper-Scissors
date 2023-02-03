@@ -11,74 +11,78 @@
 </head>
 
 <body>
-    <div class="result">
-        <h3 class="resContent">Rock <br> Paper <br> Scissors </h3>
-        <div class="scoreArea">
-            Your Score
-            <br>
-            <br>
-            <p class="score"></p>
-        </div>
-    </div>
-
-    <div class="playArea" style="visibility: visible;">
-        <div class="circle1" onclick="scissors()">
-            <div class="minicircle">
-                <img class="img1" src="images/scissors.png" alt="">
-            </div>
-        </div>
-        <div class="circle2">
-            <div class="minicircle" onclick="rock()">
-                <img class="img2" src="images/rock.png" alt="">
-            </div>
-        </div>
-        <div class="circle3" onclick="paper()">
-            <div class="minicircle">
-                <img class="img3" src="images/paper.png" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div id="resultDeclare" style="visibility: hidden;">
-
-        <div class="circle4">
-            <div class="minicircle">
-                <img class="img4" src="" alt="" style="position: relative;" >
+    <div class="main">
+        <div class="result">
+            <h3 class="resContent">Rock <br> Paper <br> Scissors </h3>
+            <div class="scoreArea">
+                Your Score
+                <br>
+                <br>
+                <p class="score"></p>
             </div>
         </div>
 
-        <div class="resultMessage">
-            <h2 id="resultText" style="position: relative; left: 235px; top: 22px; color: #ffff;"></h2>
-            <h3 style="position: relative; left: 235px; top: 22px; color: #ffff;">AGAINST PC</h3>
-            <button id="playAgain" onclick="playAgain()">PLAY AGAIN</button>
-        </div>
-
-        <div class="circle5">
-            <div class="minicircle">
-                <img class="img5" src="" alt="" style="position: relative;" >
+        <div class="playArea" style="visibility: visible;">
+            <div class="circle1" onclick="scissors()">
+                <div class="minicircle">
+                    <img class="img1" src="images/scissors.png" alt="">
+                </div>
+            </div>
+            <div class="circle2">
+                <div class="minicircle" onclick="rock()">
+                    <img class="img2" src="images/rock.png" alt="">
+                </div>
+            </div>
+            <div class="circle3" onclick="paper()">
+                <div class="minicircle">
+                    <img class="img3" src="images/paper.png" alt="">
+                </div>
             </div>
         </div>
-    </div>
+
+        <div id="resultDeclare" style="visibility: hidden;">
+
+            <div class="circle4">
+                <div class="minicircle">
+                    <img class="img4" src="" alt="" style="position: relative;">
+                </div>
+            </div>
+
+            <div class="resultMessage">
+                <h2 id="resultText" style="position: relative; left: 235px; top: 22px; color: #ffff;"></h2>
+                <h3 style="position: relative; left: 235px; top: 22px; color: #ffff;">AGAINST PC</h3>
+                <button id="playAgain" onclick="playAgain()">PLAY AGAIN</button>
+            </div>
+
+            <div class="circle5">
+                <div class="minicircle">
+                    <img class="img5" src="" alt="" style="position: relative;">
+                </div>
+            </div>
+        </div>
 
 
-    <div id="pp" style="visibility: hidden;">
-        <h4 class="p1">You Picked</h4>
-        <h4 class="p2">PC Picked</h4>
-    </div>
-    <button id="rules" onclick="rules()" style="background-color: rgba(52, 96, 250, 0.68);">Rules</button>
-    <div id="rulesContent" style="visibility: hidden;">
-        <h2 style="color: #ffff; position: relative; text-align: center">Game Rules</h2>
-        <button id="closeBTN" onclick="closed()">X</button>
-        <ul style="left: 17px;position: relative; list-style-type: square; padding-right: 20px; top: -24px">
-            <li>Rock beats scissors, scissors beats paper and paper beats rock.</li>
-            <br>
-            <li>Agree ahead of time whether you'll count off "rock, paper, scissors, shoot" or just "rock, paper,
-                scissors,".</li>
-            <br>
-            <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time.</li>
-            <br>
-            <li>If both players lay down the same hand, each player lays down another hand.</li>
-        </ul>
+        <div id="pp" style="visibility: hidden;">
+            <h4 class="p1">You Picked</h4>
+            <h4 class="p2">PC Picked</h4>
+        </div>
+
+        <div id="rulesContent" style="visibility: hidden;">
+            <h2 style="color: #ffff; position: relative; text-align: center">Game Rules</h2>
+            <button id="closeBTN" onclick="closed()">X</button>
+            <ul style="left: 17px;position: relative; list-style-type: square; padding-right: 20px; top: -24px">
+                <li>Rock beats scissors, scissors beats paper and paper beats rock.</li>
+                <br>
+                <li>Agree ahead of time whether you'll count off "rock, paper, scissors, shoot" or just "rock, paper,
+                    scissors,".</li>
+                <br>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time.</li>
+                <br>
+                <li>If both players lay down the same hand, each player lays down another hand.</li>
+            </ul>
+            <button id="rules" onclick="rules()"
+                style="visibility: visible; background-color: rgba(52, 96, 250, 0.68);">Rules</button>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
